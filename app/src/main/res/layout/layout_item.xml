@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="3dp"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_NamaDoa"
+            android:text="Ini Contoh Nama Doa"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ayat"
+            android:text="بِسْمِكَ االلّٰهُمَّ اَحْيَا وَبِاسْمِكَ اَمُوْتُ"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/latin"
+            android:text="Bismillahirrahmanirrahim"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            android:layout_marginBottom="5sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/artinya"
+            android:text="Dengan menyebut nama Allah Yang Maha Pengsaih Lagi Maha Penyayang"
+            android:textSize="18dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
